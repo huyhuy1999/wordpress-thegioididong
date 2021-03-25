@@ -1,0 +1,189 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.30
+* STEP-1 START @ 02:09:21
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.4.3 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.3
+DOC ROOT:	H:/data/htdocs/thegioididong
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/thegioididong/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20171120_manhphuc_thegioididong_78eae9bffbde74ec7879171120073900_archive.zip
+SIZE:	38.25MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5761
+    [filename] => H:\data\htdocs\thegioididong\20171120_manhphuc_thegioididong_78eae9bffbde74ec7879171120073900_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2020-09-17 14:09:40
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.200917140940.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 02:09:40 - RUNTIME: 18.1892 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 02:13:20
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 5.7.19
+FILE SIZE:	database.sql (1.73MB) - installer-data.sql (1.73MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[H:/data/htdocs/thegioididong/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	30
+QUERIES RAN:	274
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (1)
+wp_links: (0)
+wp_options: (387)
+wp_postmeta: (1600)
+wp_posts: (489)
+wp_social_users: (0)
+wp_term_relationships: (130)
+wp_term_taxonomy: (92)
+wp_termmeta: (96)
+wp_terms: (92)
+wp_usermeta: (23)
+wp_users: (1)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (3)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (2)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yith_wcwl: (0)
+wp_yith_wcwl_lists: (1)
+
+Removed '100' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 1.5772 sec.
+STEP-2 COMPLETE @ 02:13:21 - RUNTIME: 1.7740 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 02:13:33
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8mb4
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (286)
+wp_postmeta~ (1600)
+wp_posts~ (489)
+wp_social_users^ (0)
+wp_term_relationships~ (130)
+wp_term_taxonomy~ (92)
+wp_termmeta~ (96)
+wp_terms~ (92)
+wp_usermeta~ (23)
+wp_users~ (1)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies^ (0)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta^ (0)
+wp_woocommerce_order_items^ (0)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (3)
+wp_woocommerce_shipping_zone_locations~ (1)
+wp_woocommerce_shipping_zone_methods~ (2)
+wp_woocommerce_shipping_zones~ (1)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_yith_wcwl^ (0)
+wp_yith_wcwl_lists~ (1)
+--------------------------------------
+Search1:	'D:/webdesign/wamp64/www/thegioididong' 
+Change1:	'H:/data/htdocs/thegioididong' 
+Search2:	'D:\/webdesign\/wamp64\/www\/thegioididong' 
+Change2:	'H:\/data\/htdocs\/thegioididong' 
+Search3:	'D%3A%2Fwebdesign%2Fwamp64%2Fwww%2Fthegioididong%2F' 
+Change3:	'H%3A%2Fdata%2Fhtdocs%2Fthegioididong%2F' 
+Search4:	'D:\webdesign\wamp64\www\thegioididong' 
+Change4:	'H:/data/htdocs/thegioididong' 
+Search5:	'//localhost:8080/thegioididong' 
+Change5:	'//localhost:83/thegioididong' 
+Search6:	'\/\/localhost:8080\/thegioididong' 
+Change6:	'\/\/localhost:83\/thegioididong' 
+Search7:	'%2F%2Flocalhost%3A8080%2Fthegioididong' 
+Change7:	'%2F%2Flocalhost%3A83%2Fthegioididong' 
+SCANNED:	Tables:30 	|	 Rows:2817 	|	 Cells:20623 
+UPDATED:	Tables:2 	|	 Rows:375 	|	 Cells:394 
+ERRORS:		0 
+RUNTIME:	0.969400 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 02:13:34 - RUNTIME: 1.0644 sec.
+
+
